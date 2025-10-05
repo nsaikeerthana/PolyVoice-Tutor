@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+  polyvoice:
+    build: .
+    container_name: polyvoice_app
+    # Pass the local .env file securely to the container
+    env_file:
+      - .env
+    ports:
+      # Expose Streamlit's default port
+      - "8501:8501"
+    volumes:
+      # Mount the current directory for saving audio files and live code updates
+      - .:/app

@@ -1,0 +1,7 @@
+streamlit
+cerebras-cloud-sdk
+exa-py
+python-dotenv
+streamlit-webrtc
+openai-whisper
+elevenlabs

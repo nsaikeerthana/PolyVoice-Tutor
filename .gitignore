@@ -1,0 +1,11 @@
+# Ignore Python environment and cache
+__pycache__/
+*.pyc
+venv/
+.ipynb_checkpoints
+
+# CRITICAL: Ignore API keys file
+.env
+
+# Ignore locally generated audio files and logs
+tts_output_*.mp3
